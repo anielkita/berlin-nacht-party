@@ -1,4 +1,4 @@
-# Berlin Nacht — Party Anmeldung
+# Game Night — Party Anmeldung
 
 Statische Party-Einladungsseite im Berlin-Style mit eingebettetem Google Formular für RSVPs.
 
