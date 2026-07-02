@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BERLIN NACHT — Party Anmeldung</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+
+  <header class="hero">
+    <div class="hero__tape">EINLADUNG · EINLADUNG · EINLADUNG · EINLADUNG ·</div>
+    <h1 class="hero__title">
+      <span class="glitch" data-text="BERLIN">BERLIN</span>
+      <span class="hero__title-sub">NACHT</span>
+    </h1>
+    <p class="hero__subtitle">Konkrete Wände. Kaltes Licht. Eine Nacht.</p>
+    <a href="#anmeldung" class="btn btn--primary">JETZT ANMELDEN</a>
+  </header>
+
+  <main>
+    <section class="details" id="details">
+      <h2 class="section-title">DETAILS</h2>
+      <div class="details__grid">
+        <div class="card">
+          <span class="card__label">DATUM</span>
+          <span class="card__value">SA · 15.08.2026</span>
+        </div>
+        <div class="card">
+          <span class="card__label">EINLASS</span>
+          <span class="card__value">22:00 UHR</span>
+        </div>
+        <div class="card">
+          <span class="card__label">ORT</span>
+          <span class="card__value">Adresse folgt<br>per Mail</span>
+        </div>
+        <div class="card">
+          <span class="card__label">DRESSCODE</span>
+          <span class="card__value">BLACK / TECHNO</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="anmeldung" id="anmeldung">
+      <h2 class="section-title">ANMELDUNG</h2>
+      <p class="anmeldung__hint">Trag dich ein — die Gästeliste ist begrenzt.</p>
+
+      <div class="form-frame">
+        <!--
+          HIER DAS GOOGLE FORMULAR EINBETTEN:
+          1. Google Formular erstellen -> "Senden" -> Tab "Einbetten <>"
+          2. Den <iframe ...>-Code kopieren
+          3. Den src-Wert unten ersetzen (oder den ganzen iframe-Tag austauschen)
+        -->
+        <iframe
+          src="DEINE_GOOGLE_FORMULAR_EMBED_URL_HIER_EINFUEGEN"
+          width="100%"
+          height="900"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0">
+          Wird geladen…
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>BERLIN NACHT · 2026 · Keine Fotos. Keine Ausnahmen.</p>
+  </footer>
+
+</body>
+</html>
